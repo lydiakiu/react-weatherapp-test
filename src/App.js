@@ -36,10 +36,7 @@ function App() {
         </div>
       </div>
       <small class="footer">
-        <a
-          href="https://github.com/lydiakiu/react-weatherapp-test"
-          target="_blank"
-        >
+        <a href="https://github.com/lydiakiu/react-weatherapp-test">
           Open-sourced code
         </a>
         , by Lydia K
