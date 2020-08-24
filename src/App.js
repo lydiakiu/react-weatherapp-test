@@ -3,7 +3,6 @@ import ReactDOM from "react-dom";
 
 import "./App.css";
 import Form from "./Form";
-
 import Temperature from "./Temperature";
 import Description from "./Description";
 import Condition from "./Condition";
@@ -14,10 +13,7 @@ function App() {
       <Form />
       <h1 className="city"> San Diego </h1>
       <div className="row">
-        <div className="col-3">
-          <h2 className="date"></h2>
-          Thursday 12:00
-        </div>
+        <div className="col-3">Thursday 12:00</div>
         <div className="col-3">
           <ul>
             <li>
@@ -39,6 +35,15 @@ function App() {
           <Condition />
         </div>
       </div>
+      <small class="footer">
+        <a
+          href="https://github.com/lydiakiu/react-weatherapp-test"
+          target="_blank"
+        >
+          Open-sourced code
+        </a>
+        , by Lydia K
+      </small>
     </div>
   );
 }
